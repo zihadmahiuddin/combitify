@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.MuiAppBar-root {
+  background: -webkit-gradient(linear,left top,left bottom,from(rgba(71, 71, 71, 0.5)),to(rgba(71, 71, 71, 0.4)));
+
+  background: -o-linear-gradient(rgba(71, 71, 71, 0.5),rgba(71, 71, 71, 0.4));
+    
+  background: linear-gradient(rgba(71, 71, 71, 0.5),rgba(71, 71, 71, 0.4));
+    
+
+  -webkit-backdrop-filter: blur(20px);
+  -moz-backdrop-filter   : blur(20px);
+  -o-backdrop-filter     : blur(20px);
+  -ms-backdrop-filter    : blur(20px);
+  backdrop-filter        : blur(20px);
+}
